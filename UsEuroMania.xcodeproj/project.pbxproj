@@ -36,6 +36,7 @@
 		B918C4E31B118C5500F3B5ED /* UsEuroManiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsEuroManiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B918C4E81B118C5500F3B5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B918C4E91B118C5500F3B5ED /* UsEuroManiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsEuroManiaTests.swift; sourceTree = "<group>"; };
+		B918C4F31B11A43800F3B5ED /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				B918C4D01B118C5500F3B5ED /* UsEuroMania */,
 				B918C4E61B118C5500F3B5ED /* UsEuroManiaTests */,
 				B918C4CF1B118C5500F3B5ED /* Products */,
+				B918C4F31B11A43800F3B5ED /* MyPlayground.playground */,
 			);
 			sourceTree = "<group>";
 		};

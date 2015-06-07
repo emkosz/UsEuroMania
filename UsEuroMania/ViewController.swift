@@ -6,6 +6,10 @@
 //  Copyright (c) 2015 Emma Koszinowski. All rights reserved.
 //
 
+
+// dismiss the keyboard when done editing - done
+// make view scrollable 
+
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
@@ -102,6 +106,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var enteredValueTravelDistance: UILabel!
     
     
+
+    
+    
+    // Dismiss the keyboard when touching outside of the textfield
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        view.endEditing(true)
+        super.touchesBegan(touches, withEvent: event)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -114,8 +127,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-  
-
 
 }
 
